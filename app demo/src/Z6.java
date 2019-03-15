@@ -1,0 +1,35 @@
+class Z6
+{
+	static
+	{
+		System.out.println("SIB1");
+	}
+	static int i = test();
+	public static void main(String[] args) 
+	{
+		System.out.println("main");
+	}
+	static
+	{
+		System.out.println("SIB2");
+	}
+	static int test()
+	{
+		System.out.println("from test");
+		return 100;
+	}
+    static
+	{
+		System.out.println("SIB3");
+	}
+
+}
+
+/*
+o/p:
+SIB1
+from test
+SIB2
+SIB3
+main
+*/

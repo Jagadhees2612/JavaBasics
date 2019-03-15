@@ -1,0 +1,14 @@
+class A
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		int i =1;
+		while (i <= 5)//ther is a fixed location
+		{
+		    System.out.println("while loop body");//in the body of the while loop we can do the changes..no fixed location
+			i++;
+	    }
+	    System.out.println("main end");
+	}
+}

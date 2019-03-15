@@ -1,0 +1,23 @@
+class U 
+{
+    int i;
+
+	public static void main(String[] args) 
+	{
+		U u1 = new U();//i is memerise like 0
+		u1.i = 10;
+		U u2 = new U();//non static mem are loading into the memory
+		U u3 = new U();//non static mem are loading into the memory
+        u3.i = 20;
+		System.out.println(u1.i);//non stattic willl be loading to the mem for every obj
+		System.out.println(u2.i);//diff obj 
+		System.out.println(u3.i);//diff obj 
+	}
+}
+
+/*
+o/p:
+10
+0
+20
+*/

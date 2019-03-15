@@ -1,0 +1,34 @@
+class M
+{
+	static  int count;
+	
+	M()
+	{
+		
+	}
+
+    M(int i)
+	{
+	}
+
+	M(int i,int j)   
+	{
+	}
+
+	{
+		count ++;
+	}
+
+	public static void main(String[] args) 
+	{
+		M obj1 = new M();
+		M obj2 = new M();
+		M obj3 = new M(20);
+		M obj4 = new M(120);
+		M obj5 = new M(20, 0);
+		M obj6 = new M(1, 20);
+		System.out.println(M.count);
+	}
+}
+
+//o/p:   6

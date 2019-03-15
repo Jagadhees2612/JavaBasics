@@ -1,0 +1,28 @@
+class W
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		System.out.println("main middle");
+		int s1=test();
+		System.out.println("main end" +s1);
+	}
+	public static int test() 
+	{
+		System.out.println("test begin");
+		System.out.println("test middle");//ret is mantatory
+		System.out.println("test end");
+		return 100;
+	}//any data type which is available in the programming language is primitive data types//primitive means predefined data types.
+	//.bytes,shorts,long,int,float,double,boolean,char...are primitive data types..
+}
+
+/*
+o/p:
+main begin
+main middle
+test begin
+test middle
+test end
+main end100
+*/

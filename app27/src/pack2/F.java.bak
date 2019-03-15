@@ -1,0 +1,13 @@
+package pack2;
+class F
+{
+	public static void main(String[] args) 
+	{
+		pack1.A obj = new pack1.A();
+		//obj.w = 10;
+		obj.x = 10;
+		obj.y = 10;
+		obj.z = 10;
+		System.out.println("Hello World!");
+	}
+}

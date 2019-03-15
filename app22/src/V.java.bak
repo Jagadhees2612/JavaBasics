@@ -1,0 +1,31 @@
+class U extents Object//of the built in obj class is availble in jdk..//obj is a every class with spr no
+{
+	U()
+	{
+		super();
+		System.out.println("U()");//u is inhrit to v..v cls cons givind cla to 
+	}//super calling statement with any no of arguements..these r the examples foer spr calling statement.....
+}
+class V extends U
+{
+	V()//compiler 1st if should be this or spr calind\g state compiler will incorporating spr with no arguement
+	{
+		super();
+		//every this /if at all no spr cal or this calling// const should be spr or t
+		System.out.println("V()");//spr cls initializers not inhertance to the sub class..
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		V v1 = new V();
+		System.out.println("main end");
+	}
+}
+
+/*
+o/p:
+main begin
+U()
+V()
+main end
+*/

@@ -1,0 +1,10 @@
+class A2 
+{
+	public static void main(String[] args) 
+	{
+		int i=j;
+		int j=30;
+		System.out.println(i);
+		System.out.println(j);
+	}
+}

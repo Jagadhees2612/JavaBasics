@@ -1,0 +1,10 @@
+class  D
+{
+	public static void main(String[] args) 
+	{
+		int i = Character.MIN_VALUE;
+		int j = Character.MAX_VALUE;
+		System.out.println("min char value:" + Character.MIN_VALUE);
+		System.out.println("max char value:" + Character.MAX_VALUE);
+	}
+}

@@ -1,0 +1,10 @@
+class P 
+{
+	int i = 10;
+	int j = 20;
+	public static void main(String[] args) //for any global var initializing in the value
+	{
+		P p1 = new P();
+		System.out.println(p1.i+ "," +p1.j);
+	}
+}

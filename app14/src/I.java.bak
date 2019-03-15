@@ -1,0 +1,19 @@
+class I
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		System.out.println("main middle");
+		System.out.println("main end");
+		return 100;//return stmt witha value not allowed
+
+	}
+}
+
+/*
+o/p:
+I.java:8: error: incompatible types: unexpected return value
+                return 100;
+                       ^
+1 error
+*/

@@ -1,0 +1,29 @@
+class C
+{
+	C(int i)//in the c cls spr with no arg is not 
+	{
+		System.out.println("C(int)");//no matter syntacttically crct..
+	}
+}
+class D extends C
+{
+	D(int i)
+	{
+		System.out.println("D(int)");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main brgin");
+		System.out.println("main end");
+	}
+}
+/*
+o/p:
+D.java:11: error: constructor C in class C cannot be applied to given types;
+        {
+        ^
+  required: int
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+*/

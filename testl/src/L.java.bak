@@ -1,0 +1,46 @@
+//raising order or not?
+class L
+{
+	public static void main(String[] args) 
+	{
+		boolean isPrime = true;
+		int i = 10;
+		int count = 0;
+		while (count < 30)
+		{
+			for (int j =2; j <= (i / 2); j++)
+			{
+				if(i % j == 0)
+				{ 
+					isPrime = false;
+					break;
+				}
+			}
+			if(isPrime &&  isRaisingOrder(i));
+			{
+				System.out.println(i + ",");
+				count ++;
+			}
+			isPrime = true;
+			i++;
+		}
+	}
+	static boolean isRaisingOrder(int i)
+	{
+		boolean isRaising = true;
+		int j = i, currentDigit,prevdigit = i % 10;
+		j = j / 10;
+		while(j != 0)
+		{
+			currentDigit = j % 10;
+			if(currentdigit <= prevDigit)
+			{
+				isRaising = false;
+				break;
+			}
+			prevDigit = currentDigit;
+			j = j / 10;
+		}
+		return isRaising;
+	}
+}

@@ -1,0 +1,24 @@
+class M3
+{
+	public static void main(String[] args) 
+	{
+	test(1);
+	}
+	public static void test(int i) 
+	{
+	 if(i==4)
+		{
+		 return;
+	    }
+		System.out.println("hello worid");
+		i++;
+		test(i);
+	}
+}
+
+/*
+o/p:
+hello worid
+hello worid
+hello worid
+*/

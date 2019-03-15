@@ -1,0 +1,9 @@
+class  T1
+{
+	public static void main(String[] args) 
+	{
+		inti,j=10;
+		System.out.println(i+j);
+
+	}
+}

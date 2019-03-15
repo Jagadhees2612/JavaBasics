@@ -1,0 +1,17 @@
+class M24 
+{
+	public static void main(String[] args) 
+	{
+		test(1);
+	}
+	public static void test(int i)
+	{
+     if(i==6)
+		{return;}
+	    System.out.println("begin");
+		System.out.println("end");
+		i++;
+		test(2);
+	}
+
+}

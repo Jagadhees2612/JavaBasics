@@ -1,0 +1,15 @@
+class J 
+{
+	static
+	{
+		System.out.println("J.SIB");
+	}
+	public static void test()
+	{
+		System.out.println("J.tes");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("J.test");
+	}
+}

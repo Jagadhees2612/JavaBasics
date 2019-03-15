@@ -1,0 +1,28 @@
+app1 : literals, println, print, local variables and  '+' operator
+app2 : unary operator (++ and --)
+app3 : boolean expressions
+app4 : if blocks
+app5 : nested if blocks, parellel
+app6 : else block, nested if.....else
+app7 : else if blocks
+app8 : ternary operator
+app10: switch case
+app11: while loop
+app12: do while loop
+app13: for-each (enhanced)
+app14: methods
+app15: static fields
+app16: IFR
+app17: static members using in across the classes and files
+app18: encapsulation (non static) (class and object).//means makes a groups
+app19: constructors
+app20: Non static initializers (IIB)
+app21: has-a relation//
+app22: inheritance (is-a relation)
+app23: inheritance continue....
+app24: packages 
+app25: private access level or access specified
+app26: default
+app26: protected and public access levels
+t2   : question paper 2
+

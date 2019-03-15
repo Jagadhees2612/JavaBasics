@@ -1,0 +1,48 @@
+class E 
+{
+	static int i =10;
+	static
+	{
+		System.out.println("from SIB.E");
+	}
+	static void test()
+	{
+		System.out.println("from E test");
+	}
+}
+class G
+{
+	/*static
+	{
+		System.out.println("fromm G.SIB");
+	}*/
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		System.out.println(E.i);
+		E.i =20;
+		System.out.println(E.i);
+		E.i =30;
+		System.out.println(E.i);
+		System.out.println("-----");
+		E.test();
+		System.out.println("---");
+		E.test();
+		System.out.println("main end");
+	}
+}
+
+/*
+o/p:
+fromm G.SIB
+main begin
+from SIB.E
+10
+20
+30
+-----
+from E test
+---
+from E test
+main end
+*/

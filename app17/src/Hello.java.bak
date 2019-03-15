@@ -1,0 +1,4 @@
+class Hello
+{
+	static int i =100;
+}

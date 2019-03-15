@@ -1,0 +1,16 @@
+package pack2;
+import pack1.A;while (using the pack 1 to p2 import will be using...now a can us straigthaway.... 
+{
+}
+class G 
+{
+	public static void main(String[] args) 
+	{
+		A a1 = new A();
+		System.out.println("done");//if have to spescidfed use 1 package from another package...
+	}
+}
+/*
+o/p:
+v
+*/

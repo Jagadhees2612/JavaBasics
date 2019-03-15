@@ -1,0 +1,13 @@
+class F 
+{
+	static int i=10,j,k=50;
+	public static void main(String[] args) 
+	{
+		System.out.println(i+","+j+","+k);
+	}
+}
+
+/*
+o/p:
+10,0,50
+*/

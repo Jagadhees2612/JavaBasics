@@ -1,0 +1,12 @@
+class Z1 
+{
+	void Z1()  //cons should have a same name as aclass name..method can be have any name..
+	{
+		System.out.println("Z1()");
+	}
+	public static void main(String[] args) 
+	{
+		Z1 obj = new Z1();
+		System.out.println("done");
+	}
+}

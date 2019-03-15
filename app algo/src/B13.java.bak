@@ -1,0 +1,19 @@
+class B13 
+{
+	public static void main(String[] args) 
+	{
+		int i=1234;
+		int j=i%10;//4
+		i=i/10;//123
+		int k=i%10;//3
+		i=i/10;//12
+		int l=i%10;//2
+		i=i/10;//1
+		int m=i%10;//1
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(k);
+		System.out.println(l);
+		System.out.println(m);
+	}
+}

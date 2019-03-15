@@ -1,0 +1,24 @@
+class A 
+{
+	A()
+	{
+		System.out.println("A()");
+	}
+}
+class K extends A
+{
+	K()
+	{
+		System.out.println("K()");
+		this(10);
+	}
+	K(int i)
+	{
+		System.out.println("K()");
+	}
+	public static void main(String[] args) 
+	{
+		K k1 = new K();
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,16 @@
+class J1
+{static int i = 0;
+	public static void main(String[] args) 
+	{
+		//System.out.println("main begin");
+		//static int i = 0;
+		test(i++ + i);//passbyvalue
+		//++i;
+		System.out.println(i);
+	}
+	public static void test(int i)
+	{
+		//System.out.println("test:" +i);
+		//i = 20;
+	}
+}

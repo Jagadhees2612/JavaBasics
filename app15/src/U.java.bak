@@ -1,0 +1,22 @@
+class U
+{
+	static int i=test();
+
+	public static void test() 
+	{
+		System.out.println("from test");
+		return;
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("from main:"+i);
+	}
+}
+
+// all initializer execuite before main method execution.
+/*
+o/p:
+from test
+from main:100
+*/

@@ -1,0 +1,11 @@
+class N 
+{
+	N member;
+	public static void main(String[] args) 
+	{
+		N obj1 = new N();
+		obj1.member = new N();
+		System.out.println("done");
+	}
+}
+//o/p:  done
