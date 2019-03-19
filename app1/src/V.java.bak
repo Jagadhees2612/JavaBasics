@@ -1,8 +1,0 @@
-class V 
-{
-	public static void main(String[] args) 
-	{
-		System.out.println('int');
-		int i=10;
-	}
-}
