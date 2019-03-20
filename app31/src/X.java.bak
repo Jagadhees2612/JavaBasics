@@ -1,0 +1,16 @@
+interface A
+{
+	void test();//u trying to implement inthe inter fave mtd is public..while ovrriding interface mthd u should ovrrid a public..
+}
+class X extends A
+{
+    void test()
+	{
+		System.out.println("subclass-test");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("done");
+	}
+}

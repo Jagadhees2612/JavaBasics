@@ -1,0 +1,18 @@
+abstract class F
+{
+	abstract void test1();
+	void test1(int i)
+	{
+
+	}
+	static void test1(double i)
+	{
+
+	}
+
+	public void test1(String i) 
+	{
+
+
+	}
+}
