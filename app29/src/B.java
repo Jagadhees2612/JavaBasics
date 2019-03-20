@@ -1,0 +1,3 @@
+abstract interface B //inter can also class file generating...
+{
+}

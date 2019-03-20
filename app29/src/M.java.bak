@@ -1,0 +1,14 @@
+interface A
+{
+
+
+}
+class M
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		A a1 = new A();
+		System.out.println("main end");//interfvace is the 100 percent abstract one..
+	}
+}
